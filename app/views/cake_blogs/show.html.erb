@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @cake_blog.title %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @cake_blog.user_id %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @cake_blog.body %>
+</p>
+
+<%= link_to 'Edit', edit_cake_blog_path(@cake_blog) %> |
+<%= link_to 'Back', cake_blogs_path %>
